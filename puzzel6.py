@@ -12,6 +12,6 @@ print(res)
 
 # Challenge2
 
-res = next(i for i in range(len(input)) if i > 13 and len(set(input[i - 14: i])) > 13)
+res2 = next(i for i in range(len(input)) if i > 13 and len(set(input[i - 14: i])) > 13)
 
-print(res)
+print(res2)
